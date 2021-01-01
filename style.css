@@ -1,0 +1,51 @@
+body{
+    background-color:black;
+
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    margin-top:10em;
+    flex-direction: column;
+    
+    
+}
+
+.time{
+    
+    border: solid;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(39, 252, 252);
+    padding:20px;
+    font-size: 5em;
+}
+
+
+.timer{
+    
+    margin-top:2em;
+    color:white;
+}
+
+#timerbtn{
+    padding:3px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+}
+
+#timerinput{
+    border-radius: 10px;
+    padding:3px;
+}
+
+
+
+.ring{
+    margin-top:1em;
+    font-size:5em;
+    color:white;
+}
